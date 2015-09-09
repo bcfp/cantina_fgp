@@ -41,7 +41,7 @@ public class ConsultarVendaView extends ConsultarPanelView<VendaVO> implements I
 									
 					new DialogConfirmacaoView<VendaVO>().abrirJanela( venda, 
 																	  ConsultarVendaView.this,
-																	  new DetalharVendaView() );
+																	  null);
 
 				}
 				

@@ -53,7 +53,7 @@ public class ConsultarFuncionarioView extends ConsultarPanelView<FuncionarioVO> 
 									
 					new DialogConfirmacaoView<FuncionarioVO>().abrirJanela( funcionario, 
 																	  ConsultarFuncionarioView.this,
-																	  new DetalharFuncionarioView() );
+																	  null );
 
 				}
 				

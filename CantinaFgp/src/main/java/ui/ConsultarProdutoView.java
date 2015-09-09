@@ -64,7 +64,7 @@ public class ConsultarProdutoView extends ConsultarPanelView<ProdutoVO> implemen
 									
 					new DialogConfirmacaoView<ProdutoVO>().abrirJanela( prod, 
 																		ConsultarProdutoView.this,
-																		new DetalharProdutoView() );
+																		null );
 
 				}
 				

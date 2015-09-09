@@ -53,7 +53,7 @@ public class ConsultarCompraView extends ConsultarPanelView<CompraVO> implements
 									
 					new DialogConfirmacaoView<CompraVO>().abrirJanela( compra, 
 																	  ConsultarCompraView.this,
-																	  new DetalharCompraView() );
+																	  null );
 
 				}
 				

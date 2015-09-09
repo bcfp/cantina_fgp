@@ -52,7 +52,7 @@ public class ConsultarClienteView extends ConsultarPanelView<ClienteVO> implemen
 									
 					new DialogConfirmacaoView<ClienteVO>().abrirJanela( cliente, 
 																	  ConsultarClienteView.this,
-																	  new DetalharClienteView() );
+																	  null );
 
 				}
 				

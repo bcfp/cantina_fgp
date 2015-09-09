@@ -76,7 +76,7 @@ public class ConsultarOrdemProducaoView extends ConsultarPanelView<OrdemProducao
 									
 					new DialogConfirmacaoView<OrdemProducaoVO>().abrirJanela( op, 
 																	  ConsultarOrdemProducaoView.this,
-																	  new DetalharOrdemProducaoView() );
+																	  null );
 
 				}
 				
