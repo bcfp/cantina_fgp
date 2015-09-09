@@ -6,7 +6,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 
-		new PrincipalView();
+		PrincipalView p = new PrincipalView();
 		
 	}
 	
